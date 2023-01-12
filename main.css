@@ -1,0 +1,79 @@
+/* Removing Default Spaces on All Elements */
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Styling Body */
+  body {
+    height: 100vh;
+    background-image: url(https://img.freepik.com/premium-photo/ice-background-with-marks-from-skating-hockey-blue-texture-rink-surface-with-scratches_130111-1970.jpg?w=2000) ;
+  }
+
+  
+  /* Styling Main Container */
+  .main-container {
+    width: 210px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  /* Styling Viewer */
+  .viewer {
+    font-size: 24px;
+    padding: 5px;
+    width: 105%;
+    color: white;
+    margin-left: 2px;
+    border: 0px;
+    background-color: rgba(4,30,66, 0.28);
+  }
+  
+  /* Styling Buttons in Global */
+  .button {
+    width: 50px;
+    height: 50px;
+    margin: 5px 5px 0px 0px;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: rgba(255,184,28, 0.28);
+    color: whitesmoke;
+    border: 0px;
+  }
+
+  .button:hover {
+    background-color: rgba(255,184,28, 0.48);
+  }
+
+  /* .logo {
+    background-image: url(https://cms.nhl.bamgrid.com/images/photos/326625998/binary-file/raw.jpg);
+    background-size: 50px;
+    opacity: .28;
+  } */
+
+  /* .logo:hover {
+    background-image: url(https://cms.nhl.bamgrid.com/images/photos/326625998/binary-file/raw.jpg);
+    background-size: 50px;
+    opacity: .58;
+  } */
+  
+  /* Styling Zero Button */
+  .clear {
+    background-image: url(http://wallpaperset.com/w/full/5/5/a/492.jpg);
+    background-size: 100px;
+    opacity: .28;
+    width: 95%;
+  }
+
+  .clear:hover {
+    background-image: url(http://wallpaperset.com/w/full/5/5/a/492.jpg);
+    background-size: 100px;
+    opacity: .48;
+  }
+  
+  /* Styling Equal Button */ 
+  .button.equal {
+    width: 95%;
+  }
